@@ -35,5 +35,13 @@
   },
   "devDependencies": {
     "prettier": "2.1.1"
+  },
+  "prettier": {
+    "tabWidth": 2,
+    "singleQuote": true,
+    "trailingComma": "none",
+    "jsxSingleQuote": true,
+    "jsxBracketSameLine": false,
+    "arrowParens": "avoid"
   }
 }

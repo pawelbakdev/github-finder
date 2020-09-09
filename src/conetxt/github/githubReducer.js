@@ -3,12 +3,11 @@ import {
   SET_LOADING,
   CLEAR_USERS,
   GET_USER,
-  GET_REPOS,
-} from "../types";
-
+  GET_REPOS
+} from '../types';
 
 export default (state, action) => {
-  switch(action.type) {
+  switch (action.type) {
     case SEARCH_USERS:
       return {
         ...state,
